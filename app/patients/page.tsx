@@ -22,7 +22,7 @@ export default function PatientsPage() {
             </div>
           </div>
           <img 
-            src="/images/patient-care.jpg" 
+            src="https://media.istockphoto.com/id/1460099874/photo/nurse-checking-on-a-patient.jpg?s=612x612&w=0&k=20&c=Nc1xxXBioaZDooQynLqPAcSAI5TPtBPd89D5XfwTCy0=" 
             alt="Patient care"
             className="w-32 h-32 rounded-xl object-cover shadow-lg hidden lg:block"
           />

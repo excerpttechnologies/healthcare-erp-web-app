@@ -1,10 +1,12 @@
 import { HeroSection } from '@/components/landing/hero-section'
 import { FeaturesSection } from '@/components/landing/features-section'
 import { StatsSection } from '@/components/landing/stats-section'
+import { HomepageSlider } from '@/components/landing/homepage-slider'
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
+      <HomepageSlider />
       <HeroSection />
       <StatsSection />
       <FeaturesSection />

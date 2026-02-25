@@ -22,7 +22,7 @@ export default function LaboratoryPage() {
             </div>
           </div>
           <img 
-            src="/images/lab-testing.jpg" 
+            src="https://www.828urgentcare.com/Sites/B35EE094-1733-4F45-AE3A-184C3FAB532F/images/wp-content/uploads/2018/03/Onsite-Laboratory-Investigations-and-Screening-Services.jpg" 
             alt="Laboratory testing"
             className="w-32 h-32 rounded-xl object-cover shadow-lg hidden lg:block"
           />

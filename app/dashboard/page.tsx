@@ -31,7 +31,7 @@ export default function DashboardPage() {
             </div>
           </div>
           <img 
-            src="/images/medical-team.jpg" 
+            src="https://img.freepik.com/free-photo/successful-medical-team_329181-9252.jpg?t=st=1772002984~exp=1772006584~hmac=d18463148eee6a0c813511e640152a3864d0913d4c2e12f65ed1c75df30d1eee&w=1480" 
             alt="Medical team"
             className="w-32 h-32 rounded-xl object-cover shadow-lg hidden lg:block"
           />
