@@ -1,0 +1,257 @@
+{
+  "users": [
+    { "name": "Admin User", "email": "admin@evahealth.com", "password": "Admin@1234", "role": "admin", "phone": "+1-555-0100", "username": "admin_eva", "address": { "street": "101 Hospital Drive", "city": "Chicago", "state": "IL", "zip": "60601", "country": "USA" }, "profilePicture": "https://picsum.photos/seed/admin1/200/200", "dateOfBirth": "1980-04-15" },
+    { "name": "Dr. Sarah Mitchell", "email": "sarah.mitchell@evahealth.com", "password": "Doctor@5678", "role": "doctor", "phone": "+1-555-0101", "username": "dr_sarah", "address": { "street": "22 Elm Street", "city": "Chicago", "state": "IL", "zip": "60602", "country": "USA" }, "profilePicture": "https://picsum.photos/seed/doc1/200/200", "dateOfBirth": "1979-08-22" },
+    { "name": "Dr. James Holloway", "email": "james.holloway@evahealth.com", "password": "Doctor@9012", "role": "doctor", "phone": "+1-555-0102", "username": "dr_james", "address": { "street": "45 Oak Avenue", "city": "Evanston", "state": "IL", "zip": "60201", "country": "USA" }, "profilePicture": "https://picsum.photos/seed/doc2/200/200", "dateOfBirth": "1975-03-10" },
+    { "name": "Nurse Patricia Evans", "email": "patricia.evans@evahealth.com", "password": "Staff@3456", "role": "staff", "phone": "+1-555-0103", "username": "nurse_patricia", "address": { "street": "8 Maple Court", "city": "Naperville", "state": "IL", "zip": "60540", "country": "USA" }, "profilePicture": "https://picsum.photos/seed/staff1/200/200", "dateOfBirth": "1988-11-30" },
+    { "name": "Thomas Greene", "email": "thomas.greene@evahealth.com", "password": "Staff@7890", "role": "staff", "phone": "+1-555-0104", "username": "tgreene", "address": { "street": "300 Birch Lane", "city": "Aurora", "state": "IL", "zip": "60505", "country": "USA" }, "profilePicture": "https://picsum.photos/seed/staff2/200/200", "dateOfBirth": "1992-07-14" },
+    { "name": "Linda Foster", "email": "linda.foster@evahealth.com", "password": "Staff@1122", "role": "staff", "phone": "+1-555-0105", "username": "lindaf", "address": { "street": "17 Walnut Blvd", "city": "Joliet", "state": "IL", "zip": "60432", "country": "USA" }, "profilePicture": "https://picsum.photos/seed/staff3/200/200", "dateOfBirth": "1985-02-19" },
+    { "name": "Mark Patterson", "email": "mark.patterson@evahealth.com", "password": "Patient@3344", "role": "patient", "phone": "+1-555-0106", "username": "markp", "address": { "street": "55 Sunset Road", "city": "Rockford", "state": "IL", "zip": "61101", "country": "USA" }, "profilePicture": "https://picsum.photos/seed/pat1/200/200", "dateOfBirth": "1990-09-05" },
+    { "name": "Emily Thornton", "email": "emily.thornton@evahealth.com", "password": "Patient@5566", "role": "patient", "phone": "+1-555-0107", "username": "emilyt", "address": { "street": "99 Cedar Drive", "city": "Peoria", "state": "IL", "zip": "61602", "country": "USA" }, "profilePicture": "https://picsum.photos/seed/pat2/200/200", "dateOfBirth": "1995-12-25" },
+    { "name": "Dr. Angela Rivera", "email": "angela.rivera@evahealth.com", "password": "Doctor@7788", "role": "doctor", "phone": "+1-555-0108", "username": "dr_angela", "address": { "street": "12 Pinewood Ave", "city": "Springfield", "state": "IL", "zip": "62701", "country": "USA" }, "profilePicture": "https://picsum.photos/seed/doc3/200/200", "dateOfBirth": "1982-06-18" },
+    { "name": "Robert Kim", "email": "robert.kim@evahealth.com", "password": "Staff@9900", "role": "staff", "phone": "+1-555-0109", "username": "robertk", "address": { "street": "203 Lakeview Terrace", "city": "Waukegan", "state": "IL", "zip": "60085", "country": "USA" }, "profilePicture": "https://picsum.photos/seed/staff4/200/200", "dateOfBirth": "1987-04-02" }
+  ],
+
+  "patients": [
+    { "ID": "PAT-0001", "Name": "Mark Patterson", "Age": 35, "Gender": "Male", "Doctor": "Dr. Sarah Mitchell", "Status": "Admitted" },
+    { "ID": "PAT-0002", "Name": "Emily Thornton", "Age": 30, "Gender": "Female", "Doctor": "Dr. James Holloway", "Status": "Outpatient" },
+    { "ID": "PAT-0003", "Name": "Carlos Mendez", "Age": 52, "Gender": "Male", "Doctor": "Dr. Angela Rivera", "Status": "Admitted" },
+    { "ID": "PAT-0004", "Name": "Sophia Nguyen", "Age": 28, "Gender": "Female", "Doctor": "Dr. Sarah Mitchell", "Status": "Discharged" },
+    { "ID": "PAT-0005", "Name": "Harold Brooks", "Age": 67, "Gender": "Male", "Doctor": "Dr. James Holloway", "Status": "Critical" },
+    { "ID": "PAT-0006", "Name": "Olivia Turner", "Age": 42, "Gender": "Female", "Doctor": "Dr. Angela Rivera", "Status": "Outpatient" },
+    { "ID": "PAT-0007", "Name": "David Patel", "Age": 38, "Gender": "Male", "Doctor": "Dr. Sarah Mitchell", "Status": "Admitted" },
+    { "ID": "PAT-0008", "Name": "Nancy Collins", "Age": 55, "Gender": "Female", "Doctor": "Dr. James Holloway", "Status": "Outpatient" },
+    { "ID": "PAT-0009", "Name": "Kevin Alvarez", "Age": 24, "Gender": "Male", "Doctor": "Dr. Angela Rivera", "Status": "Discharged" },
+    { "ID": "PAT-0010", "Name": "Rachel Wood", "Age": 61, "Gender": "Female", "Doctor": "Dr. Sarah Mitchell", "Status": "Admitted" },
+    { "ID": "PAT-0011", "Name": "Steven Chang", "Age": 47, "Gender": "Male", "Doctor": "Dr. James Holloway", "Status": "Outpatient" },
+    { "ID": "PAT-0012", "Name": "Brenda Moore", "Age": 33, "Gender": "Female", "Doctor": "Dr. Angela Rivera", "Status": "Admitted" }
+  ],
+
+  "doctors": [
+    { "ID": "DOC-0001", "Name": "Dr. Sarah Mitchell", "Specialty": "Cardiology", "Department": "Cardiology", "Phone": "+1-555-0201", "Status": "Active" },
+    { "ID": "DOC-0002", "Name": "Dr. James Holloway", "Specialty": "Neurology", "Department": "Neurology", "Phone": "+1-555-0202", "Status": "Active" },
+    { "ID": "DOC-0003", "Name": "Dr. Angela Rivera", "Specialty": "Orthopedics", "Department": "Orthopedics", "Phone": "+1-555-0203", "Status": "Active" },
+    { "ID": "DOC-0004", "Name": "Dr. Brian Scott", "Specialty": "Pediatrics", "Department": "Pediatrics", "Phone": "+1-555-0204", "Status": "Active" },
+    { "ID": "DOC-0005", "Name": "Dr. Helen Marsh", "Specialty": "Oncology", "Department": "Oncology", "Phone": "+1-555-0205", "Status": "On Leave" },
+    { "ID": "DOC-0006", "Name": "Dr. Nathan Price", "Specialty": "Emergency Medicine", "Department": "Emergency", "Phone": "+1-555-0206", "Status": "Active" },
+    { "ID": "DOC-0007", "Name": "Dr. Laura Bennett", "Specialty": "Dermatology", "Department": "Dermatology", "Phone": "+1-555-0207", "Status": "Active" },
+    { "ID": "DOC-0008", "Name": "Dr. Edward Quinn", "Specialty": "Radiology", "Department": "Radiology", "Phone": "+1-555-0208", "Status": "Active" },
+    { "ID": "DOC-0009", "Name": "Dr. Monica Wells", "Specialty": "Gynecology", "Department": "Gynecology", "Phone": "+1-555-0209", "Status": "Active" },
+    { "ID": "DOC-0010", "Name": "Dr. Victor Stone", "Specialty": "Gastroenterology", "Department": "Gastroenterology", "Phone": "+1-555-0210", "Status": "Inactive" }
+  ],
+
+  "appointments": [
+    { "ID": "APT-0001", "Patient": "Mark Patterson", "Doctor": "Dr. Sarah Mitchell", "Date": "2026-04-01", "Time": "09:00 AM", "Type": "Consultation", "Status": "Confirmed" },
+    { "ID": "APT-0002", "Patient": "Emily Thornton", "Doctor": "Dr. James Holloway", "Date": "2026-04-01", "Time": "10:30 AM", "Type": "Follow-up", "Status": "Pending" },
+    { "ID": "APT-0003", "Patient": "Carlos Mendez", "Doctor": "Dr. Angela Rivera", "Date": "2026-04-02", "Time": "11:00 AM", "Type": "Consultation", "Status": "Confirmed" },
+    { "ID": "APT-0004", "Patient": "Sophia Nguyen", "Doctor": "Dr. Sarah Mitchell", "Date": "2026-04-02", "Time": "02:00 PM", "Type": "Checkup", "Status": "Completed" },
+    { "ID": "APT-0005", "Patient": "Harold Brooks", "Doctor": "Dr. James Holloway", "Date": "2026-04-03", "Time": "08:30 AM", "Type": "Emergency", "Status": "Confirmed" },
+    { "ID": "APT-0006", "Patient": "Olivia Turner", "Doctor": "Dr. Angela Rivera", "Date": "2026-04-03", "Time": "03:00 PM", "Type": "Follow-up", "Status": "Pending" },
+    { "ID": "APT-0007", "Patient": "David Patel", "Doctor": "Dr. Brian Scott", "Date": "2026-04-04", "Time": "09:30 AM", "Type": "Consultation", "Status": "Confirmed" },
+    { "ID": "APT-0008", "Patient": "Nancy Collins", "Doctor": "Dr. Helen Marsh", "Date": "2026-04-04", "Time": "01:00 PM", "Type": "Checkup", "Status": "Cancelled" },
+    { "ID": "APT-0009", "Patient": "Kevin Alvarez", "Doctor": "Dr. Nathan Price", "Date": "2026-04-05", "Time": "10:00 AM", "Type": "Consultation", "Status": "Confirmed" },
+    { "ID": "APT-0010", "Patient": "Rachel Wood", "Doctor": "Dr. Sarah Mitchell", "Date": "2026-04-05", "Time": "04:00 PM", "Type": "Follow-up", "Status": "Pending" },
+    { "ID": "APT-0011", "Patient": "Steven Chang", "Doctor": "Dr. Victor Stone", "Date": "2026-04-06", "Time": "11:30 AM", "Type": "Consultation", "Status": "Confirmed" },
+    { "ID": "APT-0012", "Patient": "Brenda Moore", "Doctor": "Dr. Monica Wells", "Date": "2026-04-07", "Time": "02:30 PM", "Type": "Checkup", "Status": "Confirmed" }
+  ],
+
+  "medicalRecords": [
+    { "ID": "MR-0001", "Patient": "Mark Patterson", "Doctor": "Dr. Sarah Mitchell", "Date": "2026-03-10", "Diagnosis": "Hypertension", "Type": "Inpatient", "Status": "Active" },
+    { "ID": "MR-0002", "Patient": "Emily Thornton", "Doctor": "Dr. James Holloway", "Date": "2026-03-12", "Diagnosis": "Migraine Disorder", "Type": "Outpatient", "Status": "Resolved" },
+    { "ID": "MR-0003", "Patient": "Carlos Mendez", "Doctor": "Dr. Angela Rivera", "Date": "2026-03-14", "Diagnosis": "Fractured Tibia", "Type": "Inpatient", "Status": "Active" },
+    { "ID": "MR-0004", "Patient": "Sophia Nguyen", "Doctor": "Dr. Sarah Mitchell", "Date": "2026-03-15", "Diagnosis": "Atrial Fibrillation", "Type": "Outpatient", "Status": "Resolved" },
+    { "ID": "MR-0005", "Patient": "Harold Brooks", "Doctor": "Dr. James Holloway", "Date": "2026-03-16", "Diagnosis": "Cerebral Stroke", "Type": "Emergency", "Status": "Critical" },
+    { "ID": "MR-0006", "Patient": "Olivia Turner", "Doctor": "Dr. Angela Rivera", "Date": "2026-03-18", "Diagnosis": "Lumbar Disc Herniation", "Type": "Outpatient", "Status": "Active" },
+    { "ID": "MR-0007", "Patient": "David Patel", "Doctor": "Dr. Brian Scott", "Date": "2026-03-19", "Diagnosis": "Type 1 Diabetes", "Type": "Inpatient", "Status": "Active" },
+    { "ID": "MR-0008", "Patient": "Nancy Collins", "Doctor": "Dr. Helen Marsh", "Date": "2026-03-20", "Diagnosis": "Breast Cancer Stage II", "Type": "Inpatient", "Status": "Under Treatment" },
+    { "ID": "MR-0009", "Patient": "Kevin Alvarez", "Doctor": "Dr. Nathan Price", "Date": "2026-03-21", "Diagnosis": "Appendicitis", "Type": "Emergency", "Status": "Resolved" },
+    { "ID": "MR-0010", "Patient": "Rachel Wood", "Doctor": "Dr. Sarah Mitchell", "Date": "2026-03-22", "Diagnosis": "Coronary Artery Disease", "Type": "Inpatient", "Status": "Active" },
+    { "ID": "MR-0011", "Patient": "Steven Chang", "Doctor": "Dr. Victor Stone", "Date": "2026-03-23", "Diagnosis": "Peptic Ulcer Disease", "Type": "Outpatient", "Status": "Active" },
+    { "ID": "MR-0012", "Patient": "Brenda Moore", "Doctor": "Dr. Monica Wells", "Date": "2026-03-24", "Diagnosis": "Polycystic Ovary Syndrome", "Type": "Outpatient", "Status": "Resolved" }
+  ],
+
+  "billing": [
+    { "Invoice": "INV-10001", "Patient": "Mark Patterson", "Date": "2026-03-10", "Amount": "$1,250.00", "Method": "Credit Card", "Due": "2026-04-10", "Status": "Paid" },
+    { "Invoice": "INV-10002", "Patient": "Emily Thornton", "Date": "2026-03-12", "Amount": "$480.00", "Method": "Insurance", "Due": "2026-04-12", "Status": "Paid" },
+    { "Invoice": "INV-10003", "Patient": "Carlos Mendez", "Date": "2026-03-14", "Amount": "$3,200.00", "Method": "Insurance", "Due": "2026-04-14", "Status": "Pending" },
+    { "Invoice": "INV-10004", "Patient": "Sophia Nguyen", "Date": "2026-03-15", "Amount": "$750.00", "Method": "Cash", "Due": "2026-04-15", "Status": "Paid" },
+    { "Invoice": "INV-10005", "Patient": "Harold Brooks", "Date": "2026-03-16", "Amount": "$8,500.00", "Method": "Insurance", "Due": "2026-04-16", "Status": "Pending" },
+    { "Invoice": "INV-10006", "Patient": "Olivia Turner", "Date": "2026-03-18", "Amount": "$920.00", "Method": "Credit Card", "Due": "2026-04-18", "Status": "Paid" },
+    { "Invoice": "INV-10007", "Patient": "David Patel", "Date": "2026-03-19", "Amount": "$2,100.00", "Method": "Insurance", "Due": "2026-04-19", "Status": "Pending" },
+    { "Invoice": "INV-10008", "Patient": "Nancy Collins", "Date": "2026-03-20", "Amount": "$12,400.00", "Method": "Insurance", "Due": "2026-04-20", "Status": "Overdue" },
+    { "Invoice": "INV-10009", "Patient": "Kevin Alvarez", "Date": "2026-03-21", "Amount": "$4,600.00", "Method": "Cash", "Due": "2026-04-21", "Status": "Paid" },
+    { "Invoice": "INV-10010", "Patient": "Rachel Wood", "Date": "2026-03-22", "Amount": "$5,800.00", "Method": "Insurance", "Due": "2026-04-22", "Status": "Pending" },
+    { "Invoice": "INV-10011", "Patient": "Steven Chang", "Date": "2026-03-23", "Amount": "$390.00", "Method": "Credit Card", "Due": "2026-04-23", "Status": "Paid" },
+    { "Invoice": "INV-10012", "Patient": "Brenda Moore", "Date": "2026-03-24", "Amount": "$620.00", "Method": "Cash", "Due": "2026-04-24", "Status": "Paid" }
+  ],
+
+  "inventory": [
+    { "ID": "INV-S001", "Item": "Surgical Gloves (Box)", "Category": "PPE", "Quantity": "350", "Unit": "Boxes", "Supplier": "MedSupply Co.", "Status": "In Stock" },
+    { "ID": "INV-S002", "Item": "N95 Respirator Masks", "Category": "PPE", "Quantity": "500", "Unit": "Pieces", "Supplier": "SafeGuard Medical", "Status": "In Stock" },
+    { "ID": "INV-S003", "Item": "Paracetamol 500mg", "Category": "Medication", "Quantity": "1200", "Unit": "Tablets", "Supplier": "PharmaCare Ltd.", "Status": "In Stock" },
+    { "ID": "INV-S004", "Item": "Amoxicillin 250mg", "Category": "Medication", "Quantity": "80", "Unit": "Capsules", "Supplier": "PharmaCare Ltd.", "Status": "Low Stock" },
+    { "ID": "INV-S005", "Item": "IV Saline Solution 500ml", "Category": "IV Fluids", "Quantity": "200", "Unit": "Bags", "Supplier": "FluidMed Inc.", "Status": "In Stock" },
+    { "ID": "INV-S006", "Item": "Insulin Syringes 1ml", "Category": "Equipment", "Quantity": "600", "Unit": "Pieces", "Supplier": "DiabeteCare Supply", "Status": "In Stock" },
+    { "ID": "INV-S007", "Item": "Bandage Rolls", "Category": "Wound Care", "Quantity": "15", "Unit": "Rolls", "Supplier": "WoundCare Direct", "Status": "Low Stock" },
+    { "ID": "INV-S008", "Item": "Pulse Oximeter", "Category": "Devices", "Quantity": "30", "Unit": "Units", "Supplier": "MedTech Solutions", "Status": "In Stock" },
+    { "ID": "INV-S009", "Item": "Stethoscope", "Category": "Devices", "Quantity": "20", "Unit": "Units", "Supplier": "MedTech Solutions", "Status": "In Stock" },
+    { "ID": "INV-S010", "Item": "Blood Glucose Strips", "Category": "Diagnostics", "Quantity": "0", "Unit": "Strips", "Supplier": "DiabeteCare Supply", "Status": "Out of Stock" },
+    { "ID": "INV-S011", "Item": "Sterile Gauze Pads", "Category": "Wound Care", "Quantity": "450", "Unit": "Packs", "Supplier": "WoundCare Direct", "Status": "In Stock" },
+    { "ID": "INV-S012", "Item": "Antiseptic Solution 1L", "Category": "Disinfectants", "Quantity": "60", "Unit": "Bottles", "Supplier": "CleanMed Supply", "Status": "In Stock" },
+    { "ID": "INV-S013", "Item": "Wheelchair", "Category": "Mobility Aids", "Quantity": "12", "Unit": "Units", "Supplier": "CareEquip Ltd.", "Status": "In Stock" },
+    { "ID": "INV-S014", "Item": "Blood Pressure Monitor", "Category": "Devices", "Quantity": "25", "Unit": "Units", "Supplier": "MedTech Solutions", "Status": "In Stock" },
+    { "ID": "INV-S015", "Item": "Ibuprofen 400mg", "Category": "Medication", "Quantity": "40", "Unit": "Tablets", "Supplier": "PharmaCare Ltd.", "Status": "Low Stock" }
+  ],
+
+  "staff": [
+    { "ID": "STF-0001", "Name": "Patricia Evans", "Role": "Registered Nurse", "Department": "Cardiology", "Phone": "+1-555-0301", "Shift": "Morning", "Status": "Active" },
+    { "ID": "STF-0002", "Name": "Thomas Greene", "Role": "Lab Technician", "Department": "Laboratory", "Phone": "+1-555-0302", "Shift": "Evening", "Status": "Active" },
+    { "ID": "STF-0003", "Name": "Linda Foster", "Role": "Receptionist", "Department": "Administration", "Phone": "+1-555-0303", "Shift": "Morning", "Status": "Active" },
+    { "ID": "STF-0004", "Name": "Robert Kim", "Role": "Pharmacist", "Department": "Pharmacy", "Phone": "+1-555-0304", "Shift": "Night", "Status": "Active" },
+    { "ID": "STF-0005", "Name": "Jennifer Cruz", "Role": "Ward Nurse", "Department": "General Ward", "Phone": "+1-555-0305", "Shift": "Morning", "Status": "Active" },
+    { "ID": "STF-0006", "Name": "Michael Owens", "Role": "Paramedic", "Department": "Emergency", "Phone": "+1-555-0306", "Shift": "Night", "Status": "Active" },
+    { "ID": "STF-0007", "Name": "Sandra Bell", "Role": "Physiotherapist", "Department": "Rehabilitation", "Phone": "+1-555-0307", "Shift": "Morning", "Status": "Active" },
+    { "ID": "STF-0008", "Name": "William Hart", "Role": "Radiographer", "Department": "Radiology", "Phone": "+1-555-0308", "Shift": "Evening", "Status": "On Leave" },
+    { "ID": "STF-0009", "Name": "Dorothy Singh", "Role": "Ward Nurse", "Department": "Neurology", "Phone": "+1-555-0309", "Shift": "Night", "Status": "Active" },
+    { "ID": "STF-0010", "Name": "Charles Webb", "Role": "Ambulance Driver", "Department": "Ambulance", "Phone": "+1-555-0310", "Shift": "Morning", "Status": "Active" },
+    { "ID": "STF-0011", "Name": "Katherine Long", "Role": "Medical Coder", "Department": "Billing", "Phone": "+1-555-0311", "Shift": "Morning", "Status": "Active" },
+    { "ID": "STF-0012", "Name": "George Mason", "Role": "IT Support", "Department": "IT", "Phone": "+1-555-0312", "Shift": "Evening", "Status": "Active" }
+  ],
+
+  "departments": [
+    { "ID": "DEP-01", "Name": "Cardiology", "Head": "Dr. Sarah Mitchell", "Staff": "18", "Beds": "24", "Floor": "3rd Floor", "Status": "Active" },
+    { "ID": "DEP-02", "Name": "Neurology", "Head": "Dr. James Holloway", "Staff": "14", "Beds": "20", "Floor": "4th Floor", "Status": "Active" },
+    { "ID": "DEP-03", "Name": "Orthopedics", "Head": "Dr. Angela Rivera", "Staff": "12", "Beds": "18", "Floor": "2nd Floor", "Status": "Active" },
+    { "ID": "DEP-04", "Name": "Pediatrics", "Head": "Dr. Brian Scott", "Staff": "16", "Beds": "22", "Floor": "1st Floor", "Status": "Active" },
+    { "ID": "DEP-05", "Name": "Oncology", "Head": "Dr. Helen Marsh", "Staff": "10", "Beds": "15", "Floor": "5th Floor", "Status": "Active" },
+    { "ID": "DEP-06", "Name": "Emergency", "Head": "Dr. Nathan Price", "Staff": "25", "Beds": "30", "Floor": "Ground Floor", "Status": "Active" },
+    { "ID": "DEP-07", "Name": "Radiology", "Head": "Dr. Edward Quinn", "Staff": "8", "Beds": "0", "Floor": "Basement", "Status": "Active" },
+    { "ID": "DEP-08", "Name": "Gynecology", "Head": "Dr. Monica Wells", "Staff": "11", "Beds": "16", "Floor": "2nd Floor", "Status": "Active" },
+    { "ID": "DEP-09", "Name": "Gastroenterology", "Head": "Dr. Victor Stone", "Staff": "9", "Beds": "12", "Floor": "3rd Floor", "Status": "Inactive" },
+    { "ID": "DEP-10", "Name": "Dermatology", "Head": "Dr. Laura Bennett", "Staff": "7", "Beds": "8", "Floor": "1st Floor", "Status": "Active" }
+  ],
+
+  "laboratory": [
+    { "ID": "LAB-0001", "Patient": "Mark Patterson", "Test": "Complete Blood Count (CBC)", "Doctor": "Dr. Sarah Mitchell", "Date": "2026-03-10", "Priority": "Routine", "Status": "Completed" },
+    { "ID": "LAB-0002", "Patient": "Emily Thornton", "Test": "MRI Brain", "Doctor": "Dr. James Holloway", "Date": "2026-03-12", "Priority": "Urgent", "Status": "Completed" },
+    { "ID": "LAB-0003", "Patient": "Carlos Mendez", "Test": "X-Ray Tibia", "Doctor": "Dr. Angela Rivera", "Date": "2026-03-14", "Priority": "Routine", "Status": "Completed" },
+    { "ID": "LAB-0004", "Patient": "Harold Brooks", "Test": "CT Scan Brain", "Doctor": "Dr. James Holloway", "Date": "2026-03-16", "Priority": "Emergency", "Status": "Completed" },
+    { "ID": "LAB-0005", "Patient": "Rachel Wood", "Test": "Echocardiogram", "Doctor": "Dr. Sarah Mitchell", "Date": "2026-03-22", "Priority": "Urgent", "Status": "Processing" },
+    { "ID": "LAB-0006", "Patient": "Nancy Collins", "Test": "Tumor Biopsy", "Doctor": "Dr. Helen Marsh", "Date": "2026-03-20", "Priority": "Urgent", "Status": "Completed" },
+    { "ID": "LAB-0007", "Patient": "David Patel", "Test": "HbA1c Blood Sugar", "Doctor": "Dr. Brian Scott", "Date": "2026-03-19", "Priority": "Routine", "Status": "Completed" },
+    { "ID": "LAB-0008", "Patient": "Kevin Alvarez", "Test": "Urine Analysis", "Doctor": "Dr. Nathan Price", "Date": "2026-03-21", "Priority": "Urgent", "Status": "Completed" },
+    { "ID": "LAB-0009", "Patient": "Steven Chang", "Test": "Endoscopy", "Doctor": "Dr. Victor Stone", "Date": "2026-03-23", "Priority": "Routine", "Status": "Pending" },
+    { "ID": "LAB-0010", "Patient": "Brenda Moore", "Test": "Pelvic Ultrasound", "Doctor": "Dr. Monica Wells", "Date": "2026-03-24", "Priority": "Routine", "Status": "Processing" },
+    { "ID": "LAB-0011", "Patient": "Olivia Turner", "Test": "Lumbar MRI", "Doctor": "Dr. Angela Rivera", "Date": "2026-03-18", "Priority": "Urgent", "Status": "Completed" },
+    { "ID": "LAB-0012", "Patient": "Sophia Nguyen", "Test": "ECG / EKG", "Doctor": "Dr. Sarah Mitchell", "Date": "2026-03-15", "Priority": "Routine", "Status": "Completed" }
+  ],
+
+  "ambulances": [
+    { "ID": "AMB-001", "Vehicle": "MH-12-AB-1234", "Type": "Advanced Life Support", "Driver": "Charles Webb", "Phone": "+1-555-0401", "Location": "Downtown Chicago", "Status": "Available" },
+    { "ID": "AMB-002", "Vehicle": "MH-12-CD-5678", "Type": "Basic Life Support", "Driver": "Alan Diaz", "Phone": "+1-555-0402", "Location": "Evanston", "Status": "On Call" },
+    { "ID": "AMB-003", "Vehicle": "MH-12-EF-9012", "Type": "Advanced Life Support", "Driver": "Gary Thompson", "Phone": "+1-555-0403", "Location": "Naperville", "Status": "Available" },
+    { "ID": "AMB-004", "Vehicle": "MH-12-GH-3456", "Type": "Patient Transport", "Driver": "Bruce Lee", "Phone": "+1-555-0404", "Location": "Aurora", "Status": "Maintenance" },
+    { "ID": "AMB-005", "Vehicle": "MH-12-IJ-7890", "Type": "Basic Life Support", "Driver": "Henry Ford", "Phone": "+1-555-0405", "Location": "Joliet", "Status": "Available" },
+    { "ID": "AMB-006", "Vehicle": "MH-12-KL-2345", "Type": "Neonatal Transport", "Driver": "Samuel Ross", "Phone": "+1-555-0406", "Location": "Waukegan", "Status": "On Call" },
+    { "ID": "AMB-007", "Vehicle": "MH-12-MN-6789", "Type": "Advanced Life Support", "Driver": "Jason Miles", "Phone": "+1-555-0407", "Location": "Rockford", "Status": "Available" },
+    { "ID": "AMB-008", "Vehicle": "MH-12-OP-0123", "Type": "Patient Transport", "Driver": "Louis Grant", "Phone": "+1-555-0408", "Location": "Peoria", "Status": "Out of Service" }
+  ],
+
+  "bedsWards": [
+    { "Bed": "BED-A101", "Ward": "Cardiology Ward", "Room": "101", "Floor": "3rd Floor", "Patient": "Mark Patterson", "Type": "General", "Status": "Occupied" },
+    { "Bed": "BED-A102", "Ward": "Cardiology Ward", "Room": "102", "Floor": "3rd Floor", "Patient": "", "Type": "General", "Status": "Available" },
+    { "Bed": "BED-B201", "Ward": "Neurology Ward", "Room": "201", "Floor": "4th Floor", "Patient": "Harold Brooks", "Type": "ICU", "Status": "Occupied" },
+    { "Bed": "BED-B202", "Ward": "Neurology Ward", "Room": "202", "Floor": "4th Floor", "Patient": "", "Type": "General", "Status": "Available" },
+    { "Bed": "BED-C301", "Ward": "Orthopedics Ward", "Room": "301", "Floor": "2nd Floor", "Patient": "Carlos Mendez", "Type": "General", "Status": "Occupied" },
+    { "Bed": "BED-D401", "Ward": "Pediatrics Ward", "Room": "401", "Floor": "1st Floor", "Patient": "David Patel", "Type": "General", "Status": "Occupied" },
+    { "Bed": "BED-D402", "Ward": "Pediatrics Ward", "Room": "402", "Floor": "1st Floor", "Patient": "", "Type": "General", "Status": "Cleaning" },
+    { "Bed": "BED-E501", "Ward": "Oncology Ward", "Room": "501", "Floor": "5th Floor", "Patient": "Nancy Collins", "Type": "Private", "Status": "Occupied" },
+    { "Bed": "BED-E502", "Ward": "Oncology Ward", "Room": "502", "Floor": "5th Floor", "Patient": "", "Type": "Private", "Status": "Available" },
+    { "Bed": "BED-F601", "Ward": "Emergency Ward", "Room": "E01", "Floor": "Ground Floor", "Patient": "Harold Brooks", "Type": "Emergency", "Status": "Occupied" },
+    { "Bed": "BED-G701", "Ward": "Gynecology Ward", "Room": "701", "Floor": "2nd Floor", "Patient": "Brenda Moore", "Type": "General", "Status": "Occupied" },
+    { "Bed": "BED-A103", "Ward": "Cardiology Ward", "Room": "103", "Floor": "3rd Floor", "Patient": "Rachel Wood", "Type": "Semi-Private", "Status": "Occupied" }
+  ],
+
+  "testimonials": [
+    { "customerName": "Mark Patterson", "reviewText": "The care I received at EvaHealth was exceptional. The doctors and nurses were attentive and compassionate throughout my stay. The hi-tech facilities made every procedure smooth and reassuring.", "rating": 5, "date": "2026-03-15" },
+    { "customerName": "Emily Thornton", "reviewText": "Quick appointment scheduling and a very knowledgeable neurology team. I felt truly heard during my consultation and left with a clear treatment plan.", "rating": 5, "date": "2026-03-18" },
+    { "customerName": "Carlos Mendez", "reviewText": "After my fracture surgery, the rehabilitation team was outstanding. The physiotherapy sessions significantly accelerated my recovery.", "rating": 4, "date": "2026-03-20" },
+    { "customerName": "Sophia Nguyen", "reviewText": "Very professional staff and clean facility. Billing was transparent with no hidden charges. I highly recommend EvaHealth to everyone.", "rating": 5, "date": "2026-03-22" },
+    { "customerName": "Harold Brooks", "reviewText": "Emergency care was fast and efficient. The response time was incredible. The ICU team worked tirelessly and I am grateful for their dedication.", "rating": 5, "date": "2026-03-25" },
+    { "customerName": "Olivia Turner", "reviewText": "Good overall experience. The wait times could be improved but the quality of medical care is top-notch. The orthopedics team was very thorough.", "rating": 4, "date": "2026-03-21" },
+    { "customerName": "David Patel", "reviewText": "Friendly staff and a welcoming pediatric ward. My child felt comfortable and the doctors explained everything in simple terms.", "rating": 5, "date": "2026-03-19" },
+    { "customerName": "Nancy Collins", "reviewText": "The oncology department gave me hope and strength. The team is compassionate, knowledgeable, and truly cares about patient wellbeing.", "rating": 5, "date": "2026-03-23" },
+    { "customerName": "Kevin Alvarez", "reviewText": "Fast emergency service and excellent post-surgery care. The billing team helped me with insurance claims promptly.", "rating": 4, "date": "2026-03-24" },
+    { "customerName": "Rachel Wood", "reviewText": "Consistently great experience over multiple visits. Dr. Mitchell is an outstanding cardiologist who makes you feel safe and well-cared-for.", "rating": 5, "date": "2026-03-26" }
+  ],
+
+  "blogArticles": [
+    {
+      "title": "Understanding Heart Disease: Prevention and Early Detection",
+      "author": "Dr. Sarah Mitchell",
+      "publishDate": "2026-03-01",
+      "shortDescription": "A comprehensive guide on how to prevent and detect heart disease early with modern screening techniques.",
+      "fullContent": "Heart disease remains the leading cause of death globally, yet it is largely preventable. Understanding the risk factors, such as high blood pressure, high cholesterol, smoking, and a sedentary lifestyle, is the first step toward a healthier heart.\n\nModern screening techniques, including echocardiograms, stress tests, and cardiac CT scans, allow physicians to detect blockages and anomalies long before symptoms appear. Annual health checkups are vital for anyone over the age of 40.\n\nLifestyle modifications play the most significant role in prevention. A heart-healthy diet rich in fruits, vegetables, whole grains, and lean proteins, combined with at least 150 minutes of moderate exercise per week, can dramatically lower your cardiovascular risk.\n\nMedication adherence is equally important for those already diagnosed. Statins, beta-blockers, and ACE inhibitors are commonly prescribed and, when taken consistently, offer tremendous protective benefits.\n\nAt EvaHealth Connect, our Cardiology department offers comprehensive heart health screening programs. Don't wait for symptoms — schedule your cardiac wellness check today and take control of your heart health.",
+      "tags": ["cardiology", "heart health", "prevention", "wellness"]
+    },
+    {
+      "title": "Managing Diabetes: A Patient's Guide to Blood Sugar Control",
+      "author": "Dr. Brian Scott",
+      "publishDate": "2026-03-05",
+      "shortDescription": "Practical tips and strategies for managing blood sugar levels effectively in everyday life.",
+      "fullContent": "Diabetes management is a lifelong journey that requires consistency, awareness, and the right medical support. For millions of people living with Type 1 and Type 2 diabetes, understanding how to control blood glucose is critical to preventing complications.\n\nBlood sugar monitoring is the cornerstone of diabetes care. Patients should track their glucose levels multiple times a day and maintain a log to share with their physician. Continuous Glucose Monitors (CGMs) have revolutionized this process, offering real-time readings without painful finger pricks.\n\nDiet is the most impactful factor in glucose management. A low-glycemic diet that limits refined carbohydrates, sugary drinks, and processed foods can significantly stabilize blood sugar. Consulting a registered dietitian for a personalized meal plan is highly recommended.\n\nPhysical activity improves insulin sensitivity and helps the body use glucose more effectively. Even a 30-minute brisk walk daily can yield measurable improvements in HbA1c levels over time.\n\nOur Pediatrics and Internal Medicine teams at EvaHealth work closely with diabetic patients of all ages to create tailored management plans. Contact us to schedule a diabetes wellness consultation.",
+      "tags": ["diabetes", "blood sugar", "nutrition", "lifestyle"]
+    },
+    {
+      "title": "Stroke Awareness: Recognize the Signs and Act FAST",
+      "author": "Dr. James Holloway",
+      "publishDate": "2026-03-10",
+      "shortDescription": "Learn to identify stroke symptoms early using the FAST acronym and understand what to do in an emergency.",
+      "fullContent": "Every minute counts during a stroke. A stroke occurs when blood flow to part of the brain is cut off, causing brain cells to die. The faster treatment is administered, the better the outcome for the patient.\n\nThe FAST acronym is the universally recognized method for identifying stroke symptoms: Face drooping, Arm weakness, Speech difficulty, and Time to call emergency services. Anyone exhibiting these signs should be taken to the nearest emergency room immediately.\n\nThere are two major types of stroke: ischemic, caused by a blood clot, and hemorrhagic, caused by a ruptured blood vessel. Ischemic stroke accounts for about 87% of all cases and can be treated with clot-busting drugs if administered within the golden window of 4.5 hours.\n\nRisk factors include high blood pressure, smoking, atrial fibrillation, high cholesterol, diabetes, and obesity. Managing these risks through medication and lifestyle changes drastically reduces the chances of having a stroke.\n\nEvaHealth's Neurology department is equipped with the latest diagnostic and interventional tools for stroke care. Our 24/7 stroke response team ensures that patients receive the fastest possible care when every second matters.",
+      "tags": ["neurology", "stroke", "emergency", "brain health"]
+    },
+    {
+      "title": "The Importance of Annual Health Screenings",
+      "author": "Admin User",
+      "publishDate": "2026-03-15",
+      "shortDescription": "Why regular health checkups are essential for disease prevention and early intervention.",
+      "fullContent": "Preventive care through regular screenings is one of the most effective tools in modern medicine. Many serious conditions, including cancer, diabetes, and cardiovascular disease, develop silently without obvious symptoms until they are in advanced stages.\n\nAnnual health screenings typically include blood pressure measurement, cholesterol panels, blood glucose tests, body mass index assessment, and targeted cancer screenings based on age and gender. These tests create a baseline of your health and allow doctors to track changes over time.\n\nFor women, regular mammograms and pap smears are critical for early detection of breast and cervical cancer. For men, PSA testing after the age of 50 can identify prostate cancer in its most treatable stage.\n\nChildren and adolescents also benefit enormously from routine pediatric checkups, which monitor growth, development, vaccination schedules, and mental health.\n\nAt EvaHealth Connect, we make preventive care accessible and convenient. Our comprehensive wellness packages are designed to provide a thorough evaluation of your health status in a single visit. Book your annual screening today.",
+      "tags": ["preventive care", "screening", "wellness", "checkup"]
+    }
+  ],
+
+  "companyInfo": {
+    "companyName": "EvaHealth Connect",
+    "tagline": "Compassionate Care. Cutting-Edge Technology. Better Lives.",
+    "aboutDescription": "EvaHealth Connect is a premier multi-specialty hospital and healthcare management system dedicated to delivering world-class medical services to patients across the region. Founded in 2010, we have grown from a small community clinic into a full-fledged 300-bed hospital with over 200 medical professionals across 12 specialized departments.\n\nOur mission is to provide patient-centric, evidence-based healthcare that combines medical excellence with genuine compassion. We invest continuously in the latest medical technologies, from AI-assisted diagnostics to robotic-assisted surgery, ensuring our patients have access to the best possible treatments.\n\nAt EvaHealth Connect, we believe that great healthcare starts with great people. Our team of experienced doctors, nurses, and support staff are committed to treating every patient with dignity, empathy, and respect. We are accredited by the Joint Commission International (JCI) and maintain the highest standards of patient safety and clinical quality.",
+    "contactEmail": "info@evahealth.com",
+    "contactPhone": "+1-800-EVA-CARE",
+    "address": { "street": "101 Hospital Drive, Medical District", "city": "Chicago", "state": "Illinois", "zip": "60601", "country": "USA" },
+    "socialMedia": {
+      "twitter": "https://twitter.com/EvaHealthCare",
+      "facebook": "https://facebook.com/EvaHealthConnect",
+      "linkedin": "https://linkedin.com/company/evahealth-connect",
+      "instagram": "https://instagram.com/evahealth"
+    },
+    "stats": {
+      "patients_served": "50,000+",
+      "doctors": "200+",
+      "departments": 12,
+      "beds": 300,
+      "founded": 2010
+    }
+  },
+
+  "settings": [
+    { "key": "hospital_name", "value": "EvaHealth Connect", "description": "The name of the hospital displayed across the application." },
+    { "key": "currency", "value": "USD", "description": "Default currency for billing and invoices." },
+    { "key": "date_format", "value": "MM/DD/YYYY", "description": "Date format used throughout the system." },
+    { "key": "timezone", "value": "America/Chicago", "description": "Timezone for scheduling appointments and records." },
+    { "key": "appointment_duration", "value": "30", "description": "Default appointment slot duration in minutes." },
+    { "key": "max_appointments_per_day", "value": "20", "description": "Maximum number of appointments a doctor can have per day." },
+    { "key": "enable_notifications", "value": "true", "description": "Enable or disable system-wide notifications." },
+    { "key": "billing_tax_rate", "value": "8.5", "description": "Tax rate in percentage applied to billing invoices." },
+    { "key": "support_email", "value": "support@evahealth.com", "description": "Email address for technical support inquiries." },
+    { "key": "hospital_logo_url", "value": "https://picsum.photos/seed/evahealth/200/80", "description": "URL of the hospital logo for branding." }
+  ]
+}
